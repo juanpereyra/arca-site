@@ -1,0 +1,58 @@
+.container {
+
+}
+
+.wrap {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.header {
+
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.social {
+	width: 70%;
+	float: right;
+	text-align: right;
+}
+
+.social ul {
+	list-style-type: none;
+	padding-left: 0;
+
+}
+
+.social li {
+    display : inline-block;
+}
+
+.social ul.li {
+	display: inline-block;
+}
+
+
+.body {
+	overflow: auto;
+}
+
+.navmenu {
+	width: 30%;
+	float: left;
+}
+
+.navmenu ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.content {
+	width: 70%;
+	float: right;
+}
