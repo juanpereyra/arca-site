@@ -1,9 +1,18 @@
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
 html, body {
     margin: 0;
     width: 100%;
     height: 100%;
-    font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+    font-size: 15px;
+    background-color: rgb(251,248,244);
+    color: rgb(87,88,91);
 }
 
 body {
@@ -50,6 +59,16 @@ body {
 	width: 70%;
 	float: right;
 	text-align: right;
+	font-size: 22px;
+}
+
+.socialwhite a {
+	color: white !important;
+}
+
+.social a {
+	text-decoration: none;
+	color: rgb(87,88,91);
 }
 
 .social ul {
@@ -59,6 +78,7 @@ body {
 }
 
 .social li {
+    padding-left: 1%;
     display : inline-block;
 }
 
@@ -76,7 +96,13 @@ body {
 	padding-right: 5%;
 	padding-top: 5%;
 	float: left;
-	font-size: 18px;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.navmenu a {
+	color: black;
+	text-decoration: none;
 }
 
 .navmenu a {
@@ -90,7 +116,8 @@ body {
 }
 
 .navmenu ul li {
-	
+	padding-top: 3px;
+	padding-bottom: 3px;
 	border-bottom: 2px solid black; 
 }
 
