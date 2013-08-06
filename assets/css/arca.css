@@ -140,3 +140,7 @@ body {
 	padding-left: 5%;
 	float: right;
 }
+
+.content a {
+	color: black;
+}
